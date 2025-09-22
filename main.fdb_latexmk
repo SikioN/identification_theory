@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758536782 "/Users/nmuravya/Desktop/id_theory/1lab/main.tex" "main.pdf" "main" 1758536786 0
+["pdflatex"] 1758537064 "/Users/nmuravya/Desktop/id_theory/id_git/main.tex" "main.pdf" "main" 1758537068 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/symbol/psyr.tfm" 1136761454 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136761454 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1698137166 3148 7e594c8240c71e432203f65ab5f95a51 ""
@@ -204,7 +204,7 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1698137197 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/svgnam.def" 1698137197 4704 af34fa7e0b1716f97116d8a28100bb35 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1698137197 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "/Users/nmuravya/Desktop/id_theory/1lab/main.tex" 1758382391 1745 aa6f54fe45665f0fc6bc23317d750b84 ""
+  "/Users/nmuravya/Desktop/id_theory/id_git/main.tex" 1758537044 1730 c82f1d7d84b1916942e8ece54654854b ""
   "/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1750687205 445697 82e8ce9595f9eb37026ab5356756a5c9 ""
   "/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1698137568 3304 6a543c07045572737981351171e0505e ""
   "/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1698137565 3312 d199be9bd555944e2403193d58a0256a ""
@@ -367,11 +367,11 @@
   "/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/zref/zref-base.sty" 1720011047 20785 f7d1133a287929598a897c93f8f4c44b ""
   "1.tex" 1758536775 31 3c6ae1462cf2d028ffb4664b9eacaa59 ""
   "fig/logo.png" 1713240204 13873 d448726d9f869c16e46753d3c28ad691 ""
-  "main.aux" 1758536786 1006 18fc2b4b1545d7f9055c7f1bbf823c5c "pdflatex"
-  "main.out" 1758536785 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1758382391 1745 aa6f54fe45665f0fc6bc23317d750b84 ""
-  "main.toc" 1758536786 47 59ffb40b3825e098f49beadba6aa483e "pdflatex"
-  "preamble.tex" 1758376697 7521 5bcf6580fe2d8a1b42d4a290ac90ff7c ""
+  "main.aux" 1758537068 1006 18fc2b4b1545d7f9055c7f1bbf823c5c "pdflatex"
+  "main.out" 1758537067 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1758537044 1730 c82f1d7d84b1916942e8ece54654854b ""
+  "main.toc" 1758537068 47 59ffb40b3825e098f49beadba6aa483e "pdflatex"
+  "preamble.tex" 1758537061 7527 deb76a2a5e522b40173ec7a3814f7c72 ""
   "titlepage.tex" 1758283865 1069 928817a2bf7df6f1ea42a99c86b42c60 ""
   (generated)
   "main.aux"
