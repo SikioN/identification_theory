@@ -1,0 +1,35 @@
+\documentclass[a4paper,16pt]{article}
+\input{preamble}
+\input{titlepage}
+
+\begin{document}
+
+% Титульная страница без колонтитулов
+\thispagestyle{firstpagestyle} 
+\printtitlepage{Дискретные системы управления, вариант-13}{Лабораторная работа №1}{\textbf{Муравья Н.Р.} \\ \textbf{Пшиншев Т.К.}}{Краснов А. Ю.}{2025}
+
+% Оглавление без колонтитулов
+\clearpage
+\begingroup
+\pagestyle{empty}       % убрать все колонтитулы
+\tableofcontents
+\thispagestyle{empty}   % убрать номер страницы
+\endgroup
+\clearpage
+% ====== Сброс нумерации и стиль ======
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\pagestyle{style}
+
+% Основное содержание
+\section*{Прелиминарии}
+\begin{center}
+        \begin{minipage}{0.85\textwidth}
+    \begin{centerblueblock}
+        В лабораторной работе используется язык программирования Python версии младше 3.12. Также для блочных схем используется \LaTeX. \\В ходе работы представлены функции, реализующие поставленные задачи, для их работы необходимо импортировать библиотеки для моделирования: \texttt{scipy}, \texttt{numpy}, \texttt{matplotlib}, \texttt{control} и \texttt{cvxpy}. Также нужно задать необходимые константы, обозначенные в варианте.
+\end{centerblueblock}
+    \end{minipage}
+\end{center}
+\input{1}
+
+\end{document}

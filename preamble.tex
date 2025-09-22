@@ -1,0 +1,231 @@
+% ====== Базовые пакеты ======
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[svgnames]{xcolor} % для RawSienna, Maroon, NavyBlue, ForestGreen
+\usepackage{tcolorbox}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{cancel}
+\usepackage{xfrac}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{gensymb}
+\usepackage{listings}
+\usepackage{siunitx}
+\usepackage{textcomp}
+\usepackage{csquotes}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{titletoc}
+\usepackage{pgfplots}
+\usepackage{svg}
+\usepackage{subcaption}
+\usepackage{tikz-3dplot}
+\usepackage{empheq}
+\usepackage{dsfont}
+\usepackage{tikz-cd}
+\usepackage{esint}
+\usepackage{pifont}
+\usepackage{xifthen}
+\usepackage{ifthen}
+\usepackage{etoolbox}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{MnSymbol}
+\usepackage{circuitikz}
+\usepackage{cmap}
+\usepackage{thmtools}
+\usepackage[framemethod=TikZ]{mdframed}
+\mdfsetup{skipabove=1em, skipbelow=0em}
+\usepackage[framemethod=TikZ]{mdframed}
+
+% ====== Основной шрифт и межстрочный интервал ======
+\setstretch{1.2}
+\makeatletter
+\renewcommand\normalsize{%
+  \@setfontsize\normalsize{14pt}{16pt}%
+  \abovedisplayskip 12\p@ \@plus 3\p@ \@minus 7\p@
+  \abovedisplayshortskip \z@ \@plus 3\p@
+  \belowdisplayskip \abovedisplayskip
+  \belowdisplayshortskip 7\p@ \@plus 3\p@ \@minus 4\p@
+  \lineskip 1\p@
+  \normallineskip 1\p@
+  \renewcommand\@listi{\leftmargin\leftmargini
+    \topsep 4\p@ \@plus 2\p@ \@minus 2\p@
+    \parsep 2\p@ \@plus \p@ \@minus \p@
+    \itemsep \parsep}%
+}
+\makeatother
+
+% ====== Колонтитулы ======
+\pagestyle{empty}
+
+\fancypagestyle{firstpagestyle}{
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyhf{}
+  \chead{\fontsize{14pt}{16pt}\selectfont Министерство образования и науки Российской Федерации\\
+    Федеральное государственное автономное образовательное учреждение высшего образования}
+  \cfoot{\fontsize{14pt}{16pt}\selectfont Санкт-Петербург, \titleyear}
+}
+
+\fancypagestyle{emptystyle}{
+  \renewcommand{\headrulewidth}{0pt}
+  \fancyhf{}
+}
+
+\fancypagestyle{style}{
+  \fancyhf{}
+  \lhead{\fontsize{14pt}{16pt}\selectfont \textsc{ДиСиУп}}
+  \rhead{\fontsize{14pt}{16pt}\selectfont \textsc{Лабораторная работа №1}}
+  \fancyfoot[C]{\fontsize{14pt}{16pt}\selectfont ---~\thepage~---}
+  \renewcommand{\headrulewidth}{0.25pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% ====== Цвета для блоков ======
+\definecolor{RawSienna}{HTML}{D68A59}
+\definecolor{Maroon}{HTML}{800000}
+\definecolor{NavyBlue}{HTML}{000080}
+\definecolor{ForestGreen}{HTML}{228B22}
+
+% ====== Блоки: Задание, Ответ, Замечание, centerblueblock ======
+\mdfsetup{skipabove=1em, skipbelow=0em}
+
+\declaretheoremstyle[
+  headfont=\bfseries\sffamily\color{ForestGreen!70!black}, bodyfont=\normalfont,
+  mdframed={
+    linewidth=2pt, rightline=false, topline=false, bottomline=false,
+    linecolor=ForestGreen!70!black, backgroundcolor=ForestGreen!70!black!5,
+  },
+  headpunct={\\}
+]{thmredbox}
+
+\declaretheoremstyle[
+  headfont=\bfseries\sffamily\color{Maroon!70!black}, bodyfont=\normalfont,
+  mdframed={
+    linewidth=2pt, rightline=false, topline=false, bottomline=false,
+    linecolor=Maroon, backgroundcolor=Maroon!1,
+  },
+  headpunct={\\}
+]{thmtask}
+
+\declaretheoremstyle[
+  headfont=\bfseries\sffamily\color{NavyBlue!70!black}, bodyfont=\normalfont,
+  mdframed={
+    linewidth=2pt, rightline=false, topline=false, bottomline=false,
+    linecolor=NavyBlue, backgroundcolor=NavyBlue!5,
+  },
+  headpunct={\\}
+]{thmexplanationbox}
+
+\declaretheoremstyle[
+  headfont=\bfseries\sffamily\color{NavyBlue!70!black}, bodyfont=\normalfont,
+  mdframed={
+    linewidth=2pt,
+    topline=true, rightline=false, bottomline=false, leftline=false,
+    linecolor=NavyBlue, backgroundcolor=NavyBlue!1,
+    innertopmargin=1em, innerbottommargin=1em,
+    innerleftmargin=12mm, innerrightmargin=12mm
+  },
+  headpunct={\\},
+  numbered=no
+]{thmcenterbluebox}
+
+\declaretheorem[style=thmcenterbluebox, name=]{centerblueblock}
+\declaretheorem[style=thmtask, numbered=no, name=Замечание]{remark}
+\declaretheorem[style=thmredbox, numbered=no, name=Ответ]{answer}
+\declaretheorem[style=thmexplanationbox, numbered=no, name=Задание]{task}
+
+% ====== Заголовки ======
+\renewcommand{\thesection}{\Roman{section}}
+% ====== Номер subsection ======
+\newcommand{\subsectionnumberheader}{\huge\textcircled{\Large\arabic{subsection}}}
+
+\renewcommand{\thesubsubsection}{\alph{subsubsection}}
+
+\titleformat{\section}{\fontsize{20pt}{16pt}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}[block]
+  {\fontsize{20pt}{16pt}\bfseries}
+  {\subsectionnumberheader} % здесь большой круг
+  {1em}
+  {}
+\titleformat{\subsubsection}{\fontsize{16pt}{14pt}\bfseries}{\thesubsubsection}{1em}{}
+
+% ====== Оглавление с компактными отступами ======
+
+\titlecontents{section}
+  [0em]{\fontsize{14pt}{10pt}\bfseries}{\contentslabel{1.5em}}{}{\titlerule*[1pc]{.}\contentspage}
+\titlecontents{subsection}
+  [1em] % левый отступ
+  {\fontsize{14pt}{16pt}} % стиль текста
+  {\subsectionnumbertoc} % здесь маленький круг
+  {}
+  {\titlerule*[1pc]{.}\contentspage}
+\titlecontents{subsubsection}
+  [1.5em]{\fontsize{14pt}{0em}}{\contentslabel{1.5em}}{}{\titlerule*[1pc]{.}\contentspage}
+
+\addto\captionsrussian{\renewcommand{\contentsname}{\fontsize{20pt}{16pt}\bfseries\scshape{Содержание}}}
+
+
+
+% ====== Вспомогательные команды ======
+\newcommand{\fig}[2]{%
+  \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.82\textwidth]{#1}
+    \caption{#2}
+  \end{figure}%
+}
+
+\definecolor{functioncolor}{RGB}{196,102,56}
+\definecolor{stringcolor}{RGB}{74,156,111}
+\definecolor{numbercolor}{RGB}{36,165,162}
+\definecolor{keywordcolor}{RGB}{197,131,96}
+
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\fontsize{14pt}{16pt}\selectfont,
+  numbers=left,
+  numberstyle=\color{numbercolor},
+  breaklines=true,
+  frame=single,
+  tabsize=4,
+  captionpos=b,
+  keywordstyle=\color{keywordcolor},
+  commentstyle=\color{stringcolor},
+  stringstyle=\color{stringcolor},
+  extendedchars=true,
+}
+
+% ====== TikZ блок-схемы ======
+\tikzset{
+  block/.style = {draw, rectangle, minimum height=1cm, minimum width=2cm},
+  input/.style = {coordinate, node distance=1cm},
+  output/.style = {coordinate, node distance=1cm},
+  sum/.style = {draw, circle, minimum size=0.8cm, node distance=1.5cm},
+  arrow/.style = {draw, -latex}
+}
+
+% ====== Переносы в оглавлении ======
+\makeatletter
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{3em}}
+\renewcommand*\l@subsection{\@dottedtocline{2}{4.5em}{4em}}
+\renewcommand*\l@subsubsection{\@dottedtocline{3}{8.5em}{5em}}
+\makeatother
+
+% ====== Гиперссылки ======
+\hypersetup{
+	colorlinks = true, %цветные ссылки вместо рамок
+	urlcolor = blue, %внешние ссылки
+	linkcolor = blue, %внутренние ссылки
+	citecolor = red %ссылки на литературу
+}

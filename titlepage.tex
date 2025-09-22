@@ -1,0 +1,31 @@
+% Глобальная переменная для года
+\newcommand{\titleyear}{2025} 
+
+% Команда для титульника
+\newcommand{\printtitlepage}[5]{%
+    \renewcommand{\titleyear}{#5} % Обновляем год
+    \begin{center}
+        \vspace*{1.5ex}
+        \begin{figure}[h]
+            \centering
+            \includegraphics[width=0.25\textwidth]{fig/logo.png}
+        \end{figure}
+        {\Large Санкт-Петербургский национальный исследовательский университет ИТМО}\\
+        \vspace*{4ex}
+        {\large Факультет систем управления и робототехники}\\
+        \vspace*{15ex}
+        {\huge \bfseries #1} \\
+        \vspace*{6ex}
+        {\huge \itshape #2} \\
+        \vspace*{3ex}
+    \end{center}
+    \vspace*{10ex}
+    \begin{flushright}
+        {\LARGE
+            \underline{Выполнил}: \\
+            #3 \\
+            \vspace{6ex}
+            \underline{Проверяющий}: \textit{#4}
+        }
+    \end{flushright}
+}
