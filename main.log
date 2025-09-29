@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.10.24)  29 SEP 2025 10:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.10.24)  29 SEP 2025 11:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1617,7 +1617,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-<fig/logo.png, id=8, 1043.9pt x 411.5375pt>
+<fig/logo.png, id=52, 1043.9pt x 411.5375pt>
 File: fig/logo.png Graphic file (type png)
 <use fig/logo.png>
 Package pdftex.def Info: fig/logo.png  used on input line 9.
@@ -1653,7 +1653,17 @@ LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <20> not available
 LaTeX Font Warning: Font shape `T2A/cmr/bx/sc' in size <20> not available
 (Font)              size <20.74> substituted on input line 15.
 
-(main.toc)
+(main.toc
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 2.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 3.
+ (/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Overfull \hbox (14.90082pt too wide) in paragraph at lines 5--5
+ [][] [][][]\T2A/cmr/m/n/14.4 ^^cb^^e8^^ed^^e5^^e9^^ed^^e0^^ff ^^ec^^ee-^^e4^^e5^^eb^^fc ^^e8 ^^e0^^ed^^e0-^^eb^^e8-^^f2^^e8-^^f7^^e5-^^f1^^ea^^e0^^ff ^^ee^^f6^^e5^^ed- 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -1668,11 +1678,6 @@ LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 2
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 Package hyperref Info: bookmark level for unknown centerblueblock defaults to 0 on input line 29.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 29.
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 29.
- (/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 30.
  (1.tex)
@@ -1690,7 +1695,177 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.34 \newpage
               [1
 
-] (2.tex) (3.tex) (main.aux)
+] (2.tex)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \newpage
+              [2] (3.tex
+LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <20> not available
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `T2A/cmtt/m/n' in size <20> not available
+(Font)              size <20.74> substituted on input line 3.
+
+
+LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 5.
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 28.
+Package hyperref Info: bookmark level for unknown remark defaults to 0 on input line 28.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[3]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 66.
+<fig/zad31_data_fit.png, id=125, 722.7pt x 505.89pt>
+File: fig/zad31_data_fit.png Graphic file (type png)
+<use fig/zad31_data_fit.png>
+Package pdftex.def Info: fig/zad31_data_fit.png  used on input line 88.
+(pdftex.def)             Requested size: 364.19667pt x 254.93593pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[4]
+<fig/zad31_residuals_vs_predicted.png, id=139, 722.7pt x 505.89pt>
+File: fig/zad31_residuals_vs_predicted.png Graphic file (type png)
+<use fig/zad31_residuals_vs_predicted.png>
+Package pdftex.def Info: fig/zad31_residuals_vs_predicted.png  used on input line 102.
+(pdftex.def)             Requested size: 364.19667pt x 254.93593pt.
+<fig/zad31_residuals_order.png, id=140, 722.7pt x 505.89pt>
+File: fig/zad31_residuals_order.png Graphic file (type png)
+<use fig/zad31_residuals_order.png>
+Package pdftex.def Info: fig/zad31_residuals_order.png  used on input line 109.
+(pdftex.def)             Requested size: 364.19667pt x 254.93593pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[5 <./fig/zad31_data_fit.png> <./fig/zad31_residuals_vs_predicted.png>]
+Overfull \hbox (50.59273pt too wide) in paragraph at lines 114--114
+|[]\T2A/cmr/bx/n/17.28 ^^d4^^ee^^f0^^ec^^e0^^eb^^fc^^ed^^e0^^ff ^^ef^^f0^^ee-^^e2^^e5^^f0-^^ea^^e0 ^^f3^^f1^^eb^^ee-^^e2^^e8^^e9 ^^f2^^e5^^ee-^^f0^^e5-^^ec^^fb ^^c3^^e0^^f3^^f1-^^f1^^e0^^U^^cc^^e0^^f0^^ea^^ee^^e2^^e0| 
+ []
+
+
+Overfull \hbox (39.73825pt too wide) in paragraph at lines 121--122
+[]\T2A/cmr/bx/n/14.4 ^^c3^^ee^^ec^^ee^^f1^^ea^^e5^^e4^^e0^^f1^^f2^^e8^^f7^^ed^^ee^^f1^^f2^^fc: \T2A/cmr/m/n/14.4 ^^ef^^f0^^ee-^^e2^^e5-^^f0^^e5-^^ed^^e0 ^^f1 ^^e8^^f1-^^ef^^ee^^eb^^fc-^^e7^^ee-^^e2^^e0-^^ed^^e8-^^e5^^ec ^^f2^^e5-^^f1^^f2^^e0 ^^c1^^f0^^e5-^^f3^^f8^^e0^^U^^cf^^e0^^e3^^e0^^ed^^e0: 
+ []
+
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 136.
+Package hyperref Info: bookmark level for unknown answer defaults to 0 on input line 136.
+
+Overfull \hbox (4.43156pt too wide) in paragraph at lines 136--137
+\T2A/cmr/m/n/14.4 ^^ed^^e5^^f1^^ec^^e5-^^f9^^bc^^ed-^^ed^^fb^^f5 ^^ee^^f6^^e5-^^ed^^ee^^ea), ^^e8 ^^fd^^ea-^^e7^^ee-^^e3^^e5^^ed-^^ed^^ee^^e9 ^^ef^^f0^^e8 ^^ef^^f0^^e5^^e4-^^ef^^ee-^^eb^^ee-^^e6^^e5-^^ed^^e8-^^ff^^f5 ^^ec^^ee-^^e4^^e5-^^eb^^e8. ^^d1^^eb^^e5-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[6 <./fig/zad31_residuals_order.png>]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 162.
+
+Overfull \hbox (41.09598pt too wide) in paragraph at lines 167--168
+\T2A/cmr/m/n/14.4 ^^cf^^f3^^f1^^f2^^fc ^^e7^^e0-^^e4^^e0-^^ed^^fb ^^ed^^e0-^^e1^^eb^^fe-^^e4^^e5-^^ed^^e8^^ff $\OMX/MnSymbolE/m/n/14 ^^88\OML/cmm/m/it/14.4 x[]; y[]\OMX/MnSymbolE/m/n/14 ^^8d$\T2A/cmr/m/n/14.4 , $\OML/cmm/m/it/14.4 i \U/MnSymbolD/m/n/14 ^^@ \OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; [] ; n$\T2A/cmr/m/n/14.4 , ^^e8 ^^ee^^e1^^ee-^^e7^^ed^^e0-^^f7^^e8^^ec $\OT1/cmr/bx/n/14.4 z \U/MnSymbolD/m/n/14 ^^@ \OMX/MnSymbolE/m/n/14 ^^88[] \OML/cmm/m/it/14.4 y[]; [] ; [] y[]\OMX/MnSymbolE/m/n/14 ^^8d[] \U/MnSymbolD/m/n/14 >
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[7]
+<fig/zad32_data_fit.png, id=172, 722.7pt x 505.89pt>
+File: fig/zad32_data_fit.png Graphic file (type png)
+<use fig/zad32_data_fit.png>
+Package pdftex.def Info: fig/zad32_data_fit.png  used on input line 201.
+(pdftex.def)             Requested size: 364.19667pt x 254.93593pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[8]
+<fig/zad32_residuals_vs_predicted.png, id=179, 722.7pt x 505.89pt>
+File: fig/zad32_residuals_vs_predicted.png Graphic file (type png)
+<use fig/zad32_residuals_vs_predicted.png>
+Package pdftex.def Info: fig/zad32_residuals_vs_predicted.png  used on input line 217.
+(pdftex.def)             Requested size: 364.19667pt x 254.93593pt.
+<fig/zad32_residuals_order.png, id=180, 722.7pt x 505.89pt>
+File: fig/zad32_residuals_order.png Graphic file (type png)
+<use fig/zad32_residuals_order.png>
+Package pdftex.def Info: fig/zad32_residuals_order.png  used on input line 225.
+(pdftex.def)             Requested size: 364.19667pt x 254.93593pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[9 <./fig/zad32_data_fit.png> <./fig/zad32_residuals_vs_predicted.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[10 <./fig/zad32_residuals_order.png>]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 264.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 268.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 16.0pt, for example:
+(fancyhdr)                \setlength{\headheight}{16.0pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-4.0pt}.
+
+[11] (main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-10-10>
@@ -1698,23 +1873,23 @@ L3 programming layer <2023-10-10>
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.74pt have occurred.
+(Font)              up to 1.28pt have occurred.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: D82A966C50792CA3934A74C49BB48E2C;3673.
  ) 
 Here is how much of TeX's memory you used:
- 69305 strings out of 474824
- 1714574 string characters out of 5748113
- 2559838 words of memory out of 5000000
- 90263 multiletter control sequences out of 15000+600000
- 588884 words of font info for 119 fonts, out of 8000000 for 9000
+ 69576 strings out of 474824
+ 1720169 string characters out of 5748113
+ 2565838 words of memory out of 5000000
+ 90435 multiletter control sequences out of 15000+600000
+ 599801 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,100p,1031b,1209s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfbx1728.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfbx2074.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfcc1440.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1000.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1200.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1440.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1728.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti1728.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti2074.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sftt1440.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfxc2074.pfb>
-Output written on main.pdf (3 pages, 162542 bytes).
+ 99i,13n,100p,1163b,1209s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}</Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol12.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol9.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmib10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfbx1440.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfbx1728.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfbx2074.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfcc1440.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1000.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1200.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1440.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1728.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfsx1440.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti1440.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti1728.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti2074.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sftt1440.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sftt2074.pfb></Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfxc2074.pfb>
+Output written on main.pdf (13 pages, 1177120 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

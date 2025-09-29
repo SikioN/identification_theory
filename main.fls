@@ -631,11 +631,6 @@ INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/l
 INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
-OUTPUT main.toc
-INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cyrillic/t2acmss.fd
-INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cyrillic/t2acmss.fd
-INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cyrillic/t2acmss.fd
-INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/lh/lh-t2a/lasx1440.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolF12.tfm
@@ -671,6 +666,11 @@ INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/late
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cyrillic/t2acmtt.fd
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cyrillic/t2acmtt.fd
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/lh/lh-t2a/latt1440.tfm
+OUTPUT main.toc
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cyrillic/t2acmss.fd
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cyrillic/t2acmss.fd
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/tex/latex/cyrillic/t2acmss.fd
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/lh/lh-t2a/lasx1440.tfm
 INPUT ./1.tex
 INPUT ./1.tex
 INPUT ./1.tex
@@ -687,10 +687,108 @@ INPUT ./3.tex
 INPUT ./3.tex
 INPUT ./3.tex
 INPUT 3.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcbx2074.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/lh/lh-t2a/latt2074.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolF-Bold12.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolF-Bold9.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolF-Bold7.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolE-Bold12.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolE-Bold9.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolE-Bold7.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolA-Bold12.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolA-Bold9.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolA-Bold7.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolB-Bold12.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolB-Bold9.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolB-Bold7.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolC-Bold12.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolC-Bold9.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolC-Bold7.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolD-Bold12.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolD-Bold9.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/mnsymbol/MnSymbolD-Bold7.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrb1440.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrb1000.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/tcrb0700.tfm
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/lh/lh-t2a/lati1440.tfm
+INPUT ./fig/zad31_data_fit.png
+INPUT ./fig/zad31_data_fit.png
+INPUT ./fig/zad31_data_fit.png
+INPUT ./fig/zad31_data_fit.png
+INPUT ./fig/zad31_data_fit.png
+INPUT ./fig/zad31_data_fit.png
+INPUT ./fig/zad31_data_fit.png
+INPUT ./fig/zad31_residuals_vs_predicted.png
+INPUT ./fig/zad31_residuals_vs_predicted.png
+INPUT ./fig/zad31_residuals_vs_predicted.png
+INPUT ./fig/zad31_residuals_vs_predicted.png
+INPUT ./fig/zad31_residuals_vs_predicted.png
+INPUT ./fig/zad31_residuals_vs_predicted.png
+INPUT ./fig/zad31_residuals_vs_predicted.png
+INPUT ./fig/zad31_residuals_order.png
+INPUT ./fig/zad31_residuals_order.png
+INPUT ./fig/zad31_residuals_order.png
+INPUT ./fig/zad31_residuals_order.png
+INPUT ./fig/zad31_residuals_order.png
+INPUT ./fig/zad31_residuals_order.png
+INPUT ./fig/zad31_residuals_order.png
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/lh/lh-t2a/larm0700.tfm
+INPUT ./fig/zad32_data_fit.png
+INPUT ./fig/zad32_data_fit.png
+INPUT ./fig/zad32_data_fit.png
+INPUT ./fig/zad32_data_fit.png
+INPUT ./fig/zad32_data_fit.png
+INPUT ./fig/zad32_data_fit.png
+INPUT ./fig/zad32_data_fit.png
+INPUT ./fig/zad32_residuals_vs_predicted.png
+INPUT ./fig/zad32_residuals_vs_predicted.png
+INPUT ./fig/zad32_residuals_vs_predicted.png
+INPUT ./fig/zad32_residuals_vs_predicted.png
+INPUT ./fig/zad32_residuals_vs_predicted.png
+INPUT ./fig/zad32_residuals_vs_predicted.png
+INPUT ./fig/zad32_residuals_vs_predicted.png
+INPUT ./fig/zad32_residuals_order.png
+INPUT ./fig/zad32_residuals_order.png
+INPUT ./fig/zad32_residuals_order.png
+INPUT ./fig/zad32_residuals_order.png
+INPUT ./fig/zad32_residuals_order.png
+INPUT ./fig/zad32_residuals_order.png
+INPUT ./fig/zad32_residuals_order.png
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolA.enc
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolC.enc
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolD.enc
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/mnsymbol/MnSymbolE.enc
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol12.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol12.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol9.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/mnsymbol/MnSymbol9.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmib10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmib10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfbx1440.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfbx1440.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfbx1728.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfbx1728.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfbx2074.pfb
@@ -705,11 +803,17 @@ INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1440.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1728.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfrm1728.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfsx1440.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfsx1440.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti1440.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti1440.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti1728.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti1728.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti2074.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfti2074.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sftt1440.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sftt1440.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sftt2074.pfb
+INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sftt2074.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfxc2074.pfb
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/cm-super/sfxc2074.pfb
