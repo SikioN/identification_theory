@@ -677,6 +677,16 @@ INPUT ./1.tex
 INPUT ./1.tex
 INPUT 1.tex
 INPUT /Users/nmuravya/Library/Application Support/MiKTeX/texmfs/data/fonts/tfm/lh/lh-t2a/lacc1440.tfm
+INPUT ./2.tex
+INPUT ./2.tex
+INPUT ./2.tex
+INPUT ./2.tex
+INPUT 2.tex
+INPUT ./3.tex
+INPUT ./3.tex
+INPUT ./3.tex
+INPUT ./3.tex
+INPUT 3.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
